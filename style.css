@@ -1,0 +1,55 @@
+/* Hero Section */
+.hero{
+    height: 50vh;
+    background:linear-gradient(rgba(225, 210, 210, 0.246),rgba(228, 214, 214, 0.6)),
+    url('images/project1.jpg');
+    background-size:cover;
+    background-position:center;
+    }
+    
+    /* About Image */
+    image{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    }
+    
+    /* Project Cards */
+    .card{
+    transition:transform 0.3s;
+    }
+    
+    .card:hover{
+    transform:scale(1.05);
+    }
+
+    /* Footer */
+    footer{
+    font-size:14px;
+    }
+
+    .card-img-top {
+        height: 600px;
+        width: 100%;
+    }
+     
+    .btn:hover{
+        transform: scale(1.08);
+    }
+
+    section{
+        padding-top: 80px;padding-bottom: 80px;
+    } 
+
+    .hero h1{
+        animation: fadeIn 2s;
+        font-weight: 600;
+    }
+
+    @keyframes fadeIn{
+        from{opacity:0;}to{opacity:1;}
+    }
+
+    body{
+        font-family:'Poppins',sans-serif;
+        }
